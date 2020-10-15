@@ -6,19 +6,19 @@ A Software Engineer currently working as a **iOS Developer** since March 2020 in
 
 <div>
   <a href="https://www.facebook.com/erwindoosianipar">
-    <img align="left" alt="Erwindo Sianipar | Facebook" width="21px" src="https://image.flaticon.com/icons/png/128/174/174848.png" />
+    <img align="left" alt="Erwindo Sianipar | Facebook" width="21px" src="https://www.flaticon.com/svg/static/icons/svg/174/174848.svg"/>
   </a>
   <a href="https://twitter.com/erwindosianipar">
-    <img align="left" alt="Erwindo Sianipar | Twitter" width="21px" src="https://image.flaticon.com/icons/png/128/174/174876.png" />
+    <img align="left" alt="Erwindo Sianipar | Twitter" width="21px" src="https://www.flaticon.com/svg/static/icons/svg/174/174876.svg"/>
   </a>
   <a href="https://www.instagram.com/erwindosianipar">
-    <img align="left" alt="Erwindo Sianipar | Instagram" width="21px" src="https://image.flaticon.com/icons/png/128/174/174855.png" />
+    <img align="left" alt="Erwindo Sianipar | Instagram" width="21px" src="https://www.flaticon.com/svg/static/icons/svg/174/174855.svg"/>
   </a>
   <a href="https://id.linkedin.com/in/erwindosianipar">
-    <img align="left" alt="Erwindo Sianipar | LinkedIn" width="21px" src="https://image.flaticon.com/icons/png/128/174/174857.png" />
+    <img align="left" alt="Erwindo Sianipar | LinkedIn" width="21px" src="https://www.flaticon.com/svg/static/icons/svg/174/174857.svg"/>
   </a>
   <a href="https://medium.com/@erwindosianipar">
-    <img align="left" alt="Erwindo Sianipar | Medium" width="21px" src="https://image.flaticon.com/icons/png/128/174/174858.png" />
+    <img align="left" alt="Erwindo Sianipar | Medium" width="21px" src="https://www.flaticon.com/svg/static/icons/svg/174/174858.svg"/>
   </a>
 </div>
 <br/>
