@@ -1,0 +1,183 @@
+#c-sidebar
+  background: #f5f5f5
+  overflow-y: auto
+  position: fixed
+  width: 320px
+  height: 100%
+  z-index: 1
+  left: 0
+  top: 0
+
+#c-content
+  margin-left: 320px
+
+@media(max-width: 1023px)
+  #c-sidebar
+    margin-left: -320px
+    transition: .3s
+    height: 100%
+
+  #c-sidebar.is-active
+    opacity: 100
+    margin-left: 0
+    transition: .3s
+    box-shadow: 0 1px 4px 0 rgba(26, 20, 33, 0.2)
+    width: 100%
+
+  #c-content
+    transition: .3s
+    margin-left: 0
+
+  #c-content
+    margin-left: 0
+    transition: .3s
+
+@media print
+  #c-sidebar
+    display: none
+
+.c-shadow
+  box-shadow: 0 1px 4px 0 rgba(26,20,33,.15)
+
+.c-brand
+  width: 140px
+
+.c-underscore
+  background-image: linear-gradient(transparent, transparent 60%, #96d5eb 0, #96d5eb 90%, transparent 0, transparent)
+
+a.c-underscore:hover
+  background: #96d5eb
+  transition: .5s
+  color: #3273dc
+
+#c-tab-content div
+  display: none
+
+#c-tab-content div.is-active
+  display: block
+
+.c-skeleton
+  z-index: 0
+  display: block
+  box-sizing: border-box
+  position: relative
+  overflow: hidden
+  background-color: #efefef
+
+.c-skeleton::after
+  position: absolute
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+  background-repeat: no-repeat
+  transform: translateX(-100%)
+  background-size: 99% 100%
+  background-image: linear-gradient(89deg, rgb(239, 239, 239), rgb(224, 224, 224))
+  animation: 1.3s linear 1ms infinite normal backwards running shimmer
+  content: ''
+
+@keyframes shimmer
+  100%
+    transform: translateX(100%)
+
+@keyframes f4ek4deu-B
+  0%
+    opacity: .25
+  100%
+    opacity: 1
+
+.c-no-border-radius
+  border-radius: 0
+
+.c-no-underline
+  text-decoration: none!important
+
+.c-tooltip
+  position: relative
+  display: inline-block
+
+.c-tooltip .c-tooltip-text
+  visibility: hidden
+  width: 100%
+  background: #000000
+  color: #ffffff
+  text-align: center
+  border-radius: 5px
+  padding: 5px 0
+  position: absolute
+  z-index: 1
+  bottom: 150%
+  left: 50%
+  margin-left: -50%
+  line-height: normal
+
+.c-tooltip .c-tooltip-text::after
+  content: ""
+  position: absolute
+  top: 100%
+  left: 50%
+  margin-left: -5px
+  border-width: 5px
+  border-style: solid
+  border-color: #000000 transparent transparent transparent
+
+.c-tooltip:hover .c-tooltip-text
+  visibility: visible
+
+.c-cursor-pointer
+  cursor: pointer
+
+.c-online-indicator
+  position: absolute
+  background-color: #4fd15a
+  border-radius: 50%
+  height: 14px
+  width: 14px
+  display: inline-block
+  bottom: 0
+  right: 0
+  border: 2px solid #fff
+
+.c-blink
+  animation: blink 1s linear infinite
+
+@keyframes blink
+  50%
+    opacity: 0
+
+.c-heartbeat
+  animation: heartbeat 1s ease infinite
+
+@keyframes heartbeat
+  0%
+    transform: scale(.75)
+  20%
+    transform: scale(1)
+  40%
+    transform: scale(.75)
+  60%
+    transform: scale(1)
+  80%
+    transform: scale(.75)
+  100%
+    transform: scale(.75)
+
+.c-center
+  margin-left: auto
+  margin-right: auto
+  width: 50%
+
+.c-height-50
+  width: 160px
+
+.c-grayscale
+  -webkit-filter: grayscale(90%)
+  filter: grayscale(90%)
+  -webkit-transition: .3s ease-in-out
+  transition: .3s ease-in-out
+
+.c-grayscale:hover
+  -webkit-filter: grayscale(0)
+  filter: grayscale(0)
+  cursor: pointer

@@ -1,0 +1,23 @@
+{
+  "name": "erwindosianipar",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.5",
+    "@nuxtjs/bulma": "^1.3.0",
+    "core-js": "^3.6.5",
+    "jquery": "^3.5.1",
+    "nuxt": "^2.14.6"
+  },
+  "devDependencies": {
+    "fibers": "^5.0.0",
+    "sass": "^1.32.4",
+    "sass-loader": "^10.1.1"
+  }
+}
